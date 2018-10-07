@@ -1,0 +1,32 @@
+{
+  "name": "blockchain-reporter-app-pitch",
+  "version": "1.0.0",
+  "description": "Presentation for initial pitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Crocop/blockchain-presentation.git"
+  },
+  "keywords": [
+    "blockchain",
+    "reporter",
+    "app",
+    "ethereum",
+    "ipfs",
+    "sopra steria"
+  ],
+  "author": "Marko Nalis",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/The-Crocop/blockchain-presentation/issues"
+  },
+  "homepage": "https://github.com/The-Crocop/blockchain-presentation#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "reveal.js": "^3.6.0",
+    "typed-js": "^0.2.3"
+  }
+}
