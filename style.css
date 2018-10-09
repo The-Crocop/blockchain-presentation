@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .typewriter h3{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -38,7 +42,14 @@
     position:absolute;
 }
 
+.reveal section img { background:none; border:none; box-shadow:none; }
 
+.fragment.current-visible.visible:not(.current-fragment) {
+    display: none;
+    height:0px;
+    line-height: 0px;
+    font-size: 0px;
+}
 
 /* The typing effect */
 @keyframes typing {
@@ -61,22 +72,4 @@
 }
 .col{
     flex: 1;
-}
-
-.left {
-  left:-8.33%;
-  text-align: left;
-  float: left;
-  width:50%;
-  z-index:-10;
-  background-color: blue;
-}
-
-.right {
-  left:31.25%;
-  top: 75px;
-  float: right;
-  text-align: right;
-  z-index:-10;
-  width:50%;
 }
