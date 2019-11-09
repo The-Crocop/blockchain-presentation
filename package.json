@@ -26,7 +26,7 @@
   "homepage": "https://github.com/The-Crocop/blockchain-presentation#readme",
   "dependencies": {
     "http-server": "^0.11.1",
-    "reveal.js": "^3.6.0",
+    "reveal.js": "^3.8.0",
     "typed-js": "^0.2.3"
   }
 }
