@@ -4,4 +4,4 @@ steps:
   - name: 'gcr.io/cloud-builders/npm'
     args: ['run', 'build']
   - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", "-d", "./dist/", "gs://blockchainreporter.ch"]
+    args: ["-m", "rsync", "-r", "-c", "-d", "./dist/", "gs://www.blockchainreporter.ch"]
