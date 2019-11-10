@@ -1,9 +1,12 @@
 {
   "name": "blockchain-reporter-app-pitch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Presentation for initial pitch",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --content-base src/ --hot",
+    "build": "webpack -p --display-modules --progress --colors",
+    "cleanup": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,8 +28,25 @@
   },
   "homepage": "https://github.com/The-Crocop/blockchain-presentation#readme",
   "dependencies": {
+    "highlight.js": "^9.16.2",
+    "html-webpack-plugin": "^3.2.0",
     "http-server": "^0.11.1",
+    "http-server-with-auth": "^0.10.2",
+    "lodash": "^4.17.15",
     "reveal.js": "^3.8.0",
+    "rimraf": "^3.0.0",
     "typed-js": "^0.2.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
