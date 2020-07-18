@@ -32,7 +32,7 @@
     "html-webpack-plugin": "^3.2.0",
     "http-server": "^0.11.1",
     "http-server-with-auth": "^0.10.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "reveal.js": "^3.8.0",
     "rimraf": "^3.0.0",
     "typed-js": "^0.2.3"
