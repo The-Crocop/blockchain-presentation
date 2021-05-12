@@ -33,7 +33,7 @@
     "http-server": "^0.11.1",
     "http-server-with-auth": "^0.10.2",
     "lodash": "^4.17.15",
-    "reveal.js": "^3.8.0",
+    "reveal.js": "^3.9.2",
     "rimraf": "^3.0.0",
     "typed-js": "^0.2.3"
   },
